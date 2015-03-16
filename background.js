@@ -7,4 +7,3 @@ var filter = {urls: ["*://www.youtube.com/*", "*://www.facebook.com/*", "*://www
 var opt_extraInfoSpec = ["blocking"];
 
 chrome.webRequest.onBeforeRequest.addListener(callback, filter, opt_extraInfoSpec);
-
